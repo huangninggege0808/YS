@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/bc8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bc8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bc8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bc8"
+        android:textAlignment="center"
+        android:textColor="#FF3030"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:text="退出登录"
+        android:textColor="#FF4500"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView31"
+
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toTopOf="@+id/textView31"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toTopOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginEnd="8dp"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toTopOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        android:text="Button"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toTopOf="@+id/textView30" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toTopOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_marginEnd="8dp"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="个人资料"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="账号设置"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="偏好设置"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="消息设置"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toTopOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="数据同步设置"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="数据缓存"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="商务合作"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toTopOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="投诉反馈"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/abeezee_italic"
+        android:text="关于我们"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#D3D3D3"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="0dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="设置"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bc"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="@+id/textView52"
+        app:layout_constraintTop_toTopOf="@+id/textView52"
+        app:srcCompat="@drawable/ic_baseline_search_24" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="76dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="搜索设置项"
+        android:textColor="#D3D3D3"
+        app:layout_constraintStart_toEndOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="@+id/textView52" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="@+id/textView33"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toTopOf="@+id/textView36"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView39"
+        app:layout_constraintTop_toTopOf="@+id/textView39"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:srcCompat="@drawable/jiantou" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
+        app:srcCompat="@drawable/jiantou" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

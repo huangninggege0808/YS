@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abeezee_italic</item>
+        <item>@font/abhaya_libre_semibold</item>
+        <item>@font/aclonica</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/rubik</item>
+        <item>@font/rubik_medium</item>
+        <item>@font/rubik_mono_one</item>
+        <item>@font/rufina_bold</item>
+    </array>
+</resources>
