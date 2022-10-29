@@ -26,4 +26,5 @@ public class FragmentPagerAdapter extends FragmentStateAdapter {
     public int getItemCount() {
         return fragmentList.size();
     }
+
 }
